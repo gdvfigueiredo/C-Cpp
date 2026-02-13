@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//função que vai ver se é par ou impar e dependendo do que for multiplicar por 2 ou somar 10
+//funÃ§Ã£o que vai ver se Ã© par ou impar e dependendo do que for multiplicar por 2 ou somar 10
 void processar_vetor (int *ptr, int tam){
     for (int i=0; i < tam; i++){
         if (i % 2 == 0){
@@ -31,7 +31,7 @@ int main (){
 
     processar_vetor (valor, 5);
 
-    //também imprimindo sem []
+    //tambÃ©m imprimindo sem []
     prox = valor;
 
     for (int i = 0; i < 5; i++){
